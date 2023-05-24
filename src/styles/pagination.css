@@ -1,0 +1,47 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: rgb(15, 5, 41);
+    padding-bottom: 30px;
+}
+.paginationligth{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: transparent;
+    margin-bottom: 0;
+    padding: 20px;
+    border:none;
+    background-color: rgb(71, 174, 107);
+}
+.pagination ul li{
+    border-radius: 50%;
+    margin: 0 1vw;
+}
+.pagination ul li button{
+    color: #fff;
+}
+.paginationligth ul li button{
+    color: #fff;
+}
+.pagination ul li button span{
+    border: #fff solid 1px;
+    border-radius: 50%;
+}
+.paginationligth ul li button span{
+    border: #fff solid 1px;
+    border-radius: 50%;
+}
+.pagination ul li button:hover > span{
+    border: rgb(103, 13, 13) solid 2px;
+}
+.pagination ul li div{
+    color: #fff;
+}
+.themewhite{
+    background-color: #fff;
+}
