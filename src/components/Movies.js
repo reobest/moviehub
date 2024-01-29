@@ -22,7 +22,6 @@ const Movies = () => {
                 }
             })
             const newData = res.data.results
-            console.log(newData)
             setMovies(newData)
     }
     
