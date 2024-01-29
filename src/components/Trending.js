@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react'
-import { useGlobalContext } from './cContext'
+import { useGlobalContext } from './Context'
 import {HiPlay} from 'react-icons/hi'
 import '../styles/movies.css'
 import '../styles/pagination.css'

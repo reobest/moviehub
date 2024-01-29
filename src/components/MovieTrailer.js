@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import '../styles/movietrailer.css'
 import ReactPlayer from 'react-player'
 import movieTrailer from 'movie-trailer'
-import { useGlobalContext } from './cContext'
+import { useGlobalContext } from './Context'
 const MovieTrailer = () => {
     const context = useGlobalContext()
     const {name,newMovie,img} = context
@@ -22,12 +22,11 @@ const MovieTrailer = () => {
      <div className='movietrailer'>
         <div className='video-wrapper'>
             <h1>{newMovie.title || newMovie.name}</h1>
-        <ReactPlayer  url={videoURL} controls={true} height={260} width={430}/>
+        <ReactPlayer className='react-player' url={videoURL} controls={true} width="100%" height={300}/>
        <div className='desc'>
           <p> <span className='uniq'>Desc:</span>{newMovie.overview}</p>
         </div>
        </div>
-         <img className='img-m' src={`${img}${newMovie.backdrop_path}`}/>
     </div>
      </div>
   )

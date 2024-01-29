@@ -3,7 +3,7 @@ import'../styles/mobilenav.css'
 import {BiCameraMovie,BiDollar} from 'react-icons/bi'
 import {MdOutlineSlideshow} from 'react-icons/md'
 import {HiTrendingUp} from 'react-icons/hi'
-import { useGlobalContext } from './cContext'
+import { useGlobalContext } from './Context'
 import {Link} from 'react-router-dom'
 const MobileNav = () => {
     const context = useGlobalContext()

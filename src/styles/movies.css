@@ -5,6 +5,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.movies-wrapper{
+    min-height: 73vh;
+}
 .movie{
     position: relative;
     display: flex;

@@ -3,7 +3,7 @@ import axios from 'axios'
 import '../styles/movies.css'
 import '../styles/pagination.css'
 import {HiPlay} from 'react-icons/hi'
-import { useGlobalContext } from './cContext'
+import { useGlobalContext } from './Context'
 import MovieTrailer from './MovieTrailer'
 import Pagination from '@mui/material/Pagination'
 import { AiOutlineClose } from 'react-icons/ai'
@@ -29,7 +29,7 @@ const Movies = () => {
     useEffect(() => {
         requestAPI()
     })
-    const movieList = movies.map((movie) => {
+    const movieList =  movies.map((movie) => {
         const {id,poster_path,vote_average,title} = movie
         return <div className='movie' key={id}>
             <div className='img-container'>
@@ -44,7 +44,7 @@ const Movies = () => {
             } }/>
             <div className='vote_average'>{vote_average}</div>
         </div>
-    })
+    }) 
 
     useEffect(() => {
       handleClose()

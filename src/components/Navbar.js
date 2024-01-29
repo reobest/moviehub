@@ -7,7 +7,7 @@ import {HiTrendingUp} from 'react-icons/hi'
 import {RiMenu5Fill} from 'react-icons/ri'
 import {MdDarkMode} from 'react-icons/md'
 import { Button } from '@mui/material'
-import { useGlobalContext } from './cContext'
+import { useGlobalContext } from './Context'
 import {Link} from 'react-router-dom'
 const Navbar = () => {
     const context = useGlobalContext()

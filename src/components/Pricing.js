@@ -1,7 +1,7 @@
 import React from 'react'
-import './styles/pricing.css'
-import pricingList from './components/pricinglist'
-import { useGlobalContext } from './components/cContext'
+import '../styles/pricing.css'
+import pricingList from './pricinglist'
+import { useGlobalContext } from './Context'
 const Pricing = () => {
     const context = useGlobalContext()
     const {Price1,setPrice1,Price2,setPrice2,Price3,setPrice3,mode} = context

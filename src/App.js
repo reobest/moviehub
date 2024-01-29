@@ -6,7 +6,7 @@ import TvShows from './components/TvShows';
 import Trending from './components/Trending';
 import {Routes,Route} from 'react-router-dom';
 import MobileNav from './components/MobileNav';
-import Pricing from './Pricing';
+import Pricing from './components/Pricing';
 function App() {
   return (
     <>
