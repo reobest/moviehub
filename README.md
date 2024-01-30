@@ -1,12 +1,11 @@
 # Modern Movie Hub Application in React JS 
 # Core packages
 #
- React Router - Routing
- #
- Styling -  Css
- Icons - React Icons
- Network calls - Axios
- Video Player - React Player
+ #React Router - Routing
+ #Styling -  Css
+ #Icons - React Icons
+ #Network calls - Axios
+ #Video Player - React Player
 # Home Page 
 ![Screenshot 2024-01-30 113336](https://github.com/reobest/moviehub/assets/88613447/3793d568-58b0-4ccb-8942-fded4fbe3108)
 # Pricing Page 
