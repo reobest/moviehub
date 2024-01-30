@@ -1,5 +1,16 @@
-# Modern Movie Hub Application in React JS With Styled Components
+# Modern Movie Hub Application in React JS 
+# Core packages
+# React Router - Routing
+# Styling -  Css
+# Icons - React Icons
+# Network calls - Axios
+# Video Player - React Player
+# Home Page 
 ![Screenshot 2024-01-30 113336](https://github.com/reobest/moviehub/assets/88613447/3793d568-58b0-4ccb-8942-fded4fbe3108)
+# Pricing Page 
+![pricing](https://github.com/reobest/moviehub/assets/88613447/bda646b6-3d24-4ae4-b232-dde92d00569d)
+# Change Themes
+![theme](https://github.com/reobest/moviehub/assets/88613447/ded84126-6c9a-431d-a9d5-94936a26733e)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
