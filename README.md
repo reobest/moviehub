@@ -1,6 +1,8 @@
 # Modern Movie Hub Application in React JS 
 # Core packages
+#
  React Router - Routing
+ #
  Styling -  Css
  Icons - React Icons
  Network calls - Axios
