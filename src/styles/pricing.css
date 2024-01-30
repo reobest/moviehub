@@ -4,6 +4,7 @@
     justify-content: space-around;
     width: 100%;
     height: auto;
+    min-height: 100vh;
     background-color: rgb(24, 18, 37);
 }
 .choose-price{
