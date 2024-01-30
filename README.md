@@ -2,10 +2,10 @@
 # Core packages
 #
  React Router - Routing <br />
- Styling -  Css
- Icons - React Icons
- Network calls - Axios
- Video Player - React Player
+ Styling -  Css  <br />
+ Icons - React Icons  <br />
+ Network calls - Axios  <br />
+ Video Player - React Player  <br />
 # Home Page 
 ![Screenshot 2024-01-30 113336](https://github.com/reobest/moviehub/assets/88613447/3793d568-58b0-4ccb-8942-fded4fbe3108)
 # Pricing Page 
